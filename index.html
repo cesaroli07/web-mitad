@@ -1,0 +1,77 @@
+<!----By Created Cesar Monteverde----->
+<!---EL CODIGO ES TUYO---->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/img" href="./Img/icon1.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+
+<script>
+  window.addEventListener('load', () =>{
+        const container_loader = document.querySelector('.container_loader')
+        container_loader.style.opacity = 0
+        container_loader.style.visibility = 'hidden'
+    })   
+</script>
+<body>    
+    <div class="container_loader">
+        <div class="loader"></div>
+    </div>    
+    <div class="container" id="container">        
+        <div class="left" data-aos="fade-left" data-aos-duration="1500">
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <h1 class="brackets" data-aos="fade-up" data-aos-duration="3000">&nbsp;PORTAFOLIO&nbsp;</h1>
+                <p data-aos="fade-down" data-aos-duration="3000">DESARROLLADOR SI QUIERES SABER MAS DE MI MIRA!</p>
+                <button class="boton">
+            <a href="file:///C:/Users/cesar/OneDrive/Documentos/PAGINA%20WEB%20HTML/portafolio%20terminado/Trabajos/index.html" data-aos="fade-up" data-aos-duration="3000">ENTER<i class="uil uil-arrow-from-right" style="padding:0.5rem;"></i></a>
+                </button>
+            </div>
+        </div>        
+        <div class="right" data-aos="fade-right" data-aos-duration="3000">     
+            <div class="container__Busqueda" data-aos="fade-up" data-aos-duration="2000">
+                <h1 data-aos="fade-up" data-aos-duration="1500">HOLA,&nbsp;<span class="typed"></span></h1>
+                <p data-aos="fade-down" data-aos-duration="3000">Desarrollador Junior Java. Apasionado de la Programación, busco empezar mi carrera aportando 
+                    conocimiento y seguir mi carrera (Java, Javascript, HTML5).
+                    Mi capacidad de generar ideas y mi facilidad para trabajar en equipo son mis principales
+                    herramientas para trabajar y crecer como desarrollador Junior Java.</p>
+                </div>    
+                <div class="container__btn" data-aos="fade-right" data-aos-duration="3000">                    
+                    <button class="btn btn_cls"><i class="uil uil-sign-in-alt icons"><a target="_blank" href=""  class="btn-text">Inicio</a></i></button>
+                    <button class="btn"><i class="uil uil-blogger icons"><a target="_blank" href="file:///C:/Users/cesar/OneDrive/Documentos/PAGINA%20WEB%20HTML/portafolio%20terminado/Trabajos/index.html"  class="btn-text">Blog</a></i></button>
+                    <button class="btn"><i class="uil uil-download-alt icons"><a href="./CesarMonteverde.pdf    " download="curriculum01.pdf" class="btn-text" target="_blank">CV</a></i></button>
+                <button class="btn" id="btn-abrir-popup"><i class="uil uil-at icons"><a href="#" class="btn-text">Contact</a></i></button>
+                </div>
+            <div class="social-links" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100" 
+            data-aos-anchor-placement="bottom-bottom">
+                <a href="https://www.facebook.com/cesareldeveloper" target="_blank" class="social-link" style="color: blue;"><i class="uil uil-facebook"></i></a>
+                <a href="https://www.instagram.com/cdoliveros7/" target="_blank" class="social-link" style="color: rgb(94, 27, 94);"><i class="uil uil-instagram"></i></a>
+                <a href="https://twitter.com/Cesarolidevelo7" target="_blank" class="social-link" style="color:rgb(94, 164, 221);"><i class="uil uil-twitter-alt"></i></a>
+                <a href="https://www.linkedin.com/in/cesar-monteverde-898543165/" target="_blank" class="social-link" style="color: white;"><i class="uil uil-linkedin"></i></a>
+            </div>
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="uil uil-times"></i></a>
+                    <h3>Contact</h3>
+                    <form class="form_name" action="https://formspree.io/f/mgedgkae" method="POST">
+                        <div class="contenedor-inputs">   
+                            <div class="formname">
+                                <input class="input" type="text" name="First-Name" placeholder="First Name" required>
+                                <input class="input" type="text" name="Last-Name" placeholder="Last Name" required>
+                            </div>  
+                            <div class="container_email">
+                                <input class="email" id="email" type="email" name="Email-Address" placeholder="your Email Address" required>
+                                <textarea name="Message" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+                            </div>                       
+                            <input type="submit" class="btn-submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>      
+        </div>
+        <div class="cursor"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        AOS.init();
+    </script>
